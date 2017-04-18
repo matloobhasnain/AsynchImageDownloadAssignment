@@ -1,0 +1,21 @@
+//
+//  AsynchImageDownloadAssignment.pch
+//  AsynchImageDownloadAssignment
+//
+//  Created by Apple on 17/04/2017.
+//  Copyright © 2017 terabyteLogixs. All rights reserved.
+//
+
+#ifndef AsynchImageDownloadAssignment_pch
+#define AsynchImageDownloadAssignment_pch
+
+#import "Constant.h"
+#import <QuartzCore/QuartzCore.h>
+#import "NetworkLayer/NetworkLayer.h"
+#import <AFNetworking.h>
+#import "DataModels.h"
+#import <MBProgressHUD.h>
+#import "UIImageView+WebCache.h"
+#import "Utililities.h"
+
+#endif /* AsynchImageDownloadAssignment_pch */

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8j3-1R-vQB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="IRe-5I-bcs">
+            <objects>
+                <navigationController id="8j3-1R-vQB" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QHP-kY-Wbh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="eQr-dg-Q2b" kind="relationship" relationship="rootViewController" id="BQu-Dr-4Yf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mX2-H6-K29" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-708" y="56"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="Gjd-zn-SIK">
+            <objects>
+                <viewController storyboardIdentifier="GetStartedVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eQr-dg-Q2b" customClass="GetStartedVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0L6-I3-kG7"/>
+                        <viewControllerLayoutGuide type="bottom" id="UgT-0c-KDk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fGk-4H-7TC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Zeh-Uc-pS4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g94-Tr-Yjm">
+                                <rect key="frame" x="114.5" y="612" width="146" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="146" id="WYo-kw-y8i"/>
+                                    <constraint firstAttribute="height" constant="35" id="l6y-VP-OOi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                <state key="normal" title="Let's go" backgroundImage="submit_publish_btn">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="A2k-MU-fBB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Zeh-Uc-pS4" firstAttribute="top" secondItem="fGk-4H-7TC" secondAttribute="top" id="7WI-oV-hVi"/>
+                            <constraint firstItem="Zeh-Uc-pS4" firstAttribute="leading" secondItem="fGk-4H-7TC" secondAttribute="leading" id="9hl-Rp-Wea"/>
+                            <constraint firstItem="UgT-0c-KDk" firstAttribute="top" secondItem="g94-Tr-Yjm" secondAttribute="bottom" constant="20" id="aff-np-306"/>
+                            <constraint firstAttribute="trailing" secondItem="Zeh-Uc-pS4" secondAttribute="trailing" id="dml-wB-Gh0"/>
+                            <constraint firstItem="UgT-0c-KDk" firstAttribute="top" secondItem="Zeh-Uc-pS4" secondAttribute="bottom" id="erS-hi-fH2"/>
+                            <constraint firstItem="g94-Tr-Yjm" firstAttribute="centerX" secondItem="fGk-4H-7TC" secondAttribute="centerX" id="iQ0-Hk-lmP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="OgQ-E9-F6O"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ao-if-fEY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="54.422788605697157"/>
+        </scene>
+        <!--Social-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="HomeVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GPA-ni-IJr">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="X35-cj-nsK"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="xh8-7p-K7d"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GPA-ni-IJr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="GJL-4X-idu"/>
+                            <constraint firstAttribute="trailing" secondItem="GPA-ni-IJr" secondAttribute="trailing" id="hXp-r3-n4S"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GPA-ni-IJr" secondAttribute="bottom" id="kZc-5q-hOT"/>
+                            <constraint firstItem="GPA-ni-IJr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zUO-WP-9Ag"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Social" id="Iic-On-FJe"/>
+                    <connections>
+                        <outlet property="tbl_ImagesList" destination="GPA-ni-IJr" id="Lbg-sE-Zrg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="975" y="55"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="login_bg" width="320" height="568"/>
+        <image name="submit_publish_btn" width="146" height="35"/>
+    </resources>
+</document>

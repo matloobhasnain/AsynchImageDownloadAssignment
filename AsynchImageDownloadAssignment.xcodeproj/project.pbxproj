@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180CE0DC1EA6000300F1D761 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 180CE0DB1EA6000300F1D761 /* libOCMock.a */; };
+		180CE0DD1EA6001B00F1D761 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 180CE0DB1EA6000300F1D761 /* libOCMock.a */; };
+		18C5461F1EA5190A00914CC4 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5461E1EA5190A00914CC4 /* HomeVC.m */; };
+		18C546221EA51A6F00914CC4 /* NetworkLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C546211EA51A6F00914CC4 /* NetworkLayer.m */; };
+		18C546291EA51FD100914CC4 /* Utililities.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C546281EA51FD100914CC4 /* Utililities.m */; };
+		18C546311EA5275900914CC4 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5462E1EA5275900914CC4 /* UIScrollView+SVInfiniteScrolling.m */; };
+		18C546321EA5275900914CC4 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C546301EA5275900914CC4 /* UIScrollView+SVPullToRefresh.m */; };
+		18C546401EA5285F00914CC4 /* BaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C546341EA5285F00914CC4 /* BaseClass.m */; };
+		18C546411EA5285F00914CC4 /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C546361EA5285F00914CC4 /* Categories.m */; };
+		18C546421EA5285F00914CC4 /* Links.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C546391EA5285F00914CC4 /* Links.m */; };
+		18C546431EA5285F00914CC4 /* ProfileImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5463B1EA5285F00914CC4 /* ProfileImage.m */; };
+		18C546441EA5285F00914CC4 /* Urls.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5463D1EA5285F00914CC4 /* Urls.m */; };
+		18C546451EA5285F00914CC4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5463F1EA5285F00914CC4 /* User.m */; };
+		18C5464A1EA53A6C00914CC4 /* ImageInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C546481EA53A6C00914CC4 /* ImageInfoCell.m */; };
+		18C5464B1EA53A6C00914CC4 /* ImageInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C546491EA53A6C00914CC4 /* ImageInfoCell.xib */; };
+		18C5464E1EA545F100914CC4 /* GetStartedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C5464D1EA545F100914CC4 /* GetStartedVC.m */; };
+		18DD684E1EA51071004D4196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD684D1EA51071004D4196 /* main.m */; };
+		18DD68571EA51071004D4196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DD68551EA51071004D4196 /* Main.storyboard */; };
+		18DD68591EA51071004D4196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DD68581EA51071004D4196 /* Assets.xcassets */; };
+		18DD685C1EA51071004D4196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DD685A1EA51071004D4196 /* LaunchScreen.storyboard */; };
+		18DD68671EA51071004D4196 /* AsynchImageDownloadAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD68661EA51071004D4196 /* AsynchImageDownloadAssignmentTests.m */; };
+		18DD68771EA5160D004D4196 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD68731EA5160D004D4196 /* AppDelegate.m */; };
+		1C4B13F52354626650B11CFD /* libPods-AsynchImageDownloadAssignmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA4D914686C350A4933993D /* libPods-AsynchImageDownloadAssignmentTests.a */; };
+		706A6125C0006216F3EB6C4C /* libPods-AsynchImageDownloadAssignment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2C04D51138F70817B719B2 /* libPods-AsynchImageDownloadAssignment.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DD68631EA51071004D4196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DD68411EA51071004D4196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DD68481EA51071004D4196;
+			remoteInfo = AsynchImageDownloadAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180CE0D11EA6000300F1D761 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		180CE0D21EA6000300F1D761 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		180CE0D31EA6000300F1D761 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		180CE0D41EA6000300F1D761 /* OCMLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMLocation.h; sourceTree = "<group>"; };
+		180CE0D51EA6000300F1D761 /* OCMMacroState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMMacroState.h; sourceTree = "<group>"; };
+		180CE0D61EA6000300F1D761 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		180CE0D71EA6000300F1D761 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		180CE0D81EA6000300F1D761 /* OCMRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMRecorder.h; sourceTree = "<group>"; };
+		180CE0D91EA6000300F1D761 /* OCMStubRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMStubRecorder.h; sourceTree = "<group>"; };
+		180CE0DB1EA6000300F1D761 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		18C5461D1EA5190A00914CC4 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		18C5461E1EA5190A00914CC4 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		18C546201EA51A6F00914CC4 /* NetworkLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkLayer.h; sourceTree = "<group>"; };
+		18C546211EA51A6F00914CC4 /* NetworkLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkLayer.m; sourceTree = "<group>"; };
+		18C546241EA51D0700914CC4 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		18C546261EA51ED600914CC4 /* AsynchImageDownloadAssignment.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsynchImageDownloadAssignment.pch; sourceTree = "<group>"; };
+		18C546271EA51FD100914CC4 /* Utililities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utililities.h; sourceTree = "<group>"; };
+		18C546281EA51FD100914CC4 /* Utililities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utililities.m; sourceTree = "<group>"; };
+		18C5462C1EA5275900914CC4 /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
+		18C5462D1EA5275900914CC4 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
+		18C5462E1EA5275900914CC4 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
+		18C5462F1EA5275900914CC4 /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
+		18C546301EA5275900914CC4 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
+		18C546331EA5285F00914CC4 /* BaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseClass.h; sourceTree = "<group>"; };
+		18C546341EA5285F00914CC4 /* BaseClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseClass.m; sourceTree = "<group>"; };
+		18C546351EA5285F00914CC4 /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		18C546361EA5285F00914CC4 /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categories.m; sourceTree = "<group>"; };
+		18C546371EA5285F00914CC4 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		18C546381EA5285F00914CC4 /* Links.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Links.h; sourceTree = "<group>"; };
+		18C546391EA5285F00914CC4 /* Links.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Links.m; sourceTree = "<group>"; };
+		18C5463A1EA5285F00914CC4 /* ProfileImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileImage.h; sourceTree = "<group>"; };
+		18C5463B1EA5285F00914CC4 /* ProfileImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileImage.m; sourceTree = "<group>"; };
+		18C5463C1EA5285F00914CC4 /* Urls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Urls.h; sourceTree = "<group>"; };
+		18C5463D1EA5285F00914CC4 /* Urls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Urls.m; sourceTree = "<group>"; };
+		18C5463E1EA5285F00914CC4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		18C5463F1EA5285F00914CC4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		18C546471EA53A6C00914CC4 /* ImageInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageInfoCell.h; sourceTree = "<group>"; };
+		18C546481EA53A6C00914CC4 /* ImageInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageInfoCell.m; sourceTree = "<group>"; };
+		18C546491EA53A6C00914CC4 /* ImageInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageInfoCell.xib; sourceTree = "<group>"; };
+		18C5464C1EA545F100914CC4 /* GetStartedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetStartedVC.h; sourceTree = "<group>"; };
+		18C5464D1EA545F100914CC4 /* GetStartedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetStartedVC.m; sourceTree = "<group>"; };
+		18DD68491EA51071004D4196 /* AsynchImageDownloadAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsynchImageDownloadAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DD684D1EA51071004D4196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18DD68561EA51071004D4196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DD68581EA51071004D4196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DD685B1EA51071004D4196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18DD685D1EA51071004D4196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DD68621EA51071004D4196 /* AsynchImageDownloadAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsynchImageDownloadAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DD68661EA51071004D4196 /* AsynchImageDownloadAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsynchImageDownloadAssignmentTests.m; sourceTree = "<group>"; };
+		18DD68681EA51071004D4196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DD68721EA5160D004D4196 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18DD68731EA5160D004D4196 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A2C04D51138F70817B719B2 /* libPods-AsynchImageDownloadAssignment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AsynchImageDownloadAssignment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		337C7EA353204345C60A024B /* Pods-AsynchImageDownloadAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsynchImageDownloadAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsynchImageDownloadAssignment/Pods-AsynchImageDownloadAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		5DA4D914686C350A4933993D /* libPods-AsynchImageDownloadAssignmentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AsynchImageDownloadAssignmentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9B4559A7A5C1716FAFBB0F /* Pods-AsynchImageDownloadAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsynchImageDownloadAssignmentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsynchImageDownloadAssignmentTests/Pods-AsynchImageDownloadAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9E1F0F8CF6210FD7C7A533 /* Pods-AsynchImageDownloadAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsynchImageDownloadAssignmentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsynchImageDownloadAssignmentTests/Pods-AsynchImageDownloadAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		A3B38DA8DB1BDCBED8722A82 /* Pods-AsynchImageDownloadAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsynchImageDownloadAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsynchImageDownloadAssignment/Pods-AsynchImageDownloadAssignment.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DD68461EA51071004D4196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706A6125C0006216F3EB6C4C /* libPods-AsynchImageDownloadAssignment.a in Frameworks */,
+				180CE0DC1EA6000300F1D761 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DD685F1EA51071004D4196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4B13F52354626650B11CFD /* libPods-AsynchImageDownloadAssignmentTests.a in Frameworks */,
+				180CE0DD1EA6001B00F1D761 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628DACE5DFCED34B6F4DBFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A2C04D51138F70817B719B2 /* libPods-AsynchImageDownloadAssignment.a */,
+				5DA4D914686C350A4933993D /* libPods-AsynchImageDownloadAssignmentTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180CE0CE1EA6000300F1D761 /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				180CE0CF1EA6000300F1D761 /* include */,
+				180CE0DA1EA6000300F1D761 /* lib */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		180CE0CF1EA6000300F1D761 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				180CE0D01EA6000300F1D761 /* OCMock */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		180CE0D01EA6000300F1D761 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				180CE0D11EA6000300F1D761 /* NSNotificationCenter+OCMAdditions.h */,
+				180CE0D21EA6000300F1D761 /* OCMArg.h */,
+				180CE0D31EA6000300F1D761 /* OCMConstraint.h */,
+				180CE0D41EA6000300F1D761 /* OCMLocation.h */,
+				180CE0D51EA6000300F1D761 /* OCMMacroState.h */,
+				180CE0D61EA6000300F1D761 /* OCMock.h */,
+				180CE0D71EA6000300F1D761 /* OCMockObject.h */,
+				180CE0D81EA6000300F1D761 /* OCMRecorder.h */,
+				180CE0D91EA6000300F1D761 /* OCMStubRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		180CE0DA1EA6000300F1D761 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				180CE0DB1EA6000300F1D761 /* libOCMock.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		18C546231EA51D0700914CC4 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				18C546241EA51D0700914CC4 /* Constant.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		18C5462A1EA5275900914CC4 /* ThirdPartiesOpenSourceLibs */ = {
+			isa = PBXGroup;
+			children = (
+				180CE0CE1EA6000300F1D761 /* usr */,
+				18C5462B1EA5275900914CC4 /* SVPullToRefresh */,
+			);
+			path = ThirdPartiesOpenSourceLibs;
+			sourceTree = "<group>";
+		};
+		18C5462B1EA5275900914CC4 /* SVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				18C5462C1EA5275900914CC4 /* SVPullToRefresh.h */,
+				18C5462D1EA5275900914CC4 /* UIScrollView+SVInfiniteScrolling.h */,
+				18C5462E1EA5275900914CC4 /* UIScrollView+SVInfiniteScrolling.m */,
+				18C5462F1EA5275900914CC4 /* UIScrollView+SVPullToRefresh.h */,
+				18C546301EA5275900914CC4 /* UIScrollView+SVPullToRefresh.m */,
+			);
+			path = SVPullToRefresh;
+			sourceTree = "<group>";
+		};
+		18C546461EA53A4C00914CC4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18C546471EA53A6C00914CC4 /* ImageInfoCell.h */,
+				18C546481EA53A6C00914CC4 /* ImageInfoCell.m */,
+				18C546491EA53A6C00914CC4 /* ImageInfoCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		18DD68401EA51071004D4196 = {
+			isa = PBXGroup;
+			children = (
+				18DD684B1EA51071004D4196 /* AsynchImageDownloadAssignment */,
+				18DD68651EA51071004D4196 /* AsynchImageDownloadAssignmentTests */,
+				18DD684A1EA51071004D4196 /* Products */,
+				1A0D89D28D8DF1B60AA68AF9 /* Pods */,
+				1628DACE5DFCED34B6F4DBFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18DD684A1EA51071004D4196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DD68491EA51071004D4196 /* AsynchImageDownloadAssignment.app */,
+				18DD68621EA51071004D4196 /* AsynchImageDownloadAssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DD684B1EA51071004D4196 /* AsynchImageDownloadAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				18C5462A1EA5275900914CC4 /* ThirdPartiesOpenSourceLibs */,
+				18DD68791EA51657004D4196 /* ModelObjects */,
+				18DD687A1EA51657004D4196 /* NetworkLayer */,
+				18DD687B1EA51657004D4196 /* Utilities */,
+				18DD687C1EA51657004D4196 /* VCs */,
+				18DD68711EA5160D004D4196 /* AppDelgate */,
+				18C546231EA51D0700914CC4 /* Constant */,
+				18C546461EA53A4C00914CC4 /* Cells */,
+				18DD68551EA51071004D4196 /* Main.storyboard */,
+				18DD68581EA51071004D4196 /* Assets.xcassets */,
+				18DD685A1EA51071004D4196 /* LaunchScreen.storyboard */,
+				18DD685D1EA51071004D4196 /* Info.plist */,
+				18DD684C1EA51071004D4196 /* Supporting Files */,
+			);
+			path = AsynchImageDownloadAssignment;
+			sourceTree = "<group>";
+		};
+		18DD684C1EA51071004D4196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C546261EA51ED600914CC4 /* AsynchImageDownloadAssignment.pch */,
+				18DD684D1EA51071004D4196 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18DD68651EA51071004D4196 /* AsynchImageDownloadAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				18DD68661EA51071004D4196 /* AsynchImageDownloadAssignmentTests.m */,
+				18DD68681EA51071004D4196 /* Info.plist */,
+			);
+			path = AsynchImageDownloadAssignmentTests;
+			sourceTree = "<group>";
+		};
+		18DD68711EA5160D004D4196 /* AppDelgate */ = {
+			isa = PBXGroup;
+			children = (
+				18DD68721EA5160D004D4196 /* AppDelegate.h */,
+				18DD68731EA5160D004D4196 /* AppDelegate.m */,
+			);
+			path = AppDelgate;
+			sourceTree = "<group>";
+		};
+		18DD68791EA51657004D4196 /* ModelObjects */ = {
+			isa = PBXGroup;
+			children = (
+				18C546331EA5285F00914CC4 /* BaseClass.h */,
+				18C546341EA5285F00914CC4 /* BaseClass.m */,
+				18C546351EA5285F00914CC4 /* Categories.h */,
+				18C546361EA5285F00914CC4 /* Categories.m */,
+				18C546371EA5285F00914CC4 /* DataModels.h */,
+				18C546381EA5285F00914CC4 /* Links.h */,
+				18C546391EA5285F00914CC4 /* Links.m */,
+				18C5463A1EA5285F00914CC4 /* ProfileImage.h */,
+				18C5463B1EA5285F00914CC4 /* ProfileImage.m */,
+				18C5463C1EA5285F00914CC4 /* Urls.h */,
+				18C5463D1EA5285F00914CC4 /* Urls.m */,
+				18C5463E1EA5285F00914CC4 /* User.h */,
+				18C5463F1EA5285F00914CC4 /* User.m */,
+			);
+			path = ModelObjects;
+			sourceTree = "<group>";
+		};
+		18DD687A1EA51657004D4196 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				18C546201EA51A6F00914CC4 /* NetworkLayer.h */,
+				18C546211EA51A6F00914CC4 /* NetworkLayer.m */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		18DD687B1EA51657004D4196 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18C546271EA51FD100914CC4 /* Utililities.h */,
+				18C546281EA51FD100914CC4 /* Utililities.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		18DD687C1EA51657004D4196 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				18C5464C1EA545F100914CC4 /* GetStartedVC.h */,
+				18C5464D1EA545F100914CC4 /* GetStartedVC.m */,
+				18C5461D1EA5190A00914CC4 /* HomeVC.h */,
+				18C5461E1EA5190A00914CC4 /* HomeVC.m */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		1A0D89D28D8DF1B60AA68AF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				337C7EA353204345C60A024B /* Pods-AsynchImageDownloadAssignment.debug.xcconfig */,
+				A3B38DA8DB1BDCBED8722A82 /* Pods-AsynchImageDownloadAssignment.release.xcconfig */,
+				8F9B4559A7A5C1716FAFBB0F /* Pods-AsynchImageDownloadAssignmentTests.debug.xcconfig */,
+				8F9E1F0F8CF6210FD7C7A533 /* Pods-AsynchImageDownloadAssignmentTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DD68481EA51071004D4196 /* AsynchImageDownloadAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DD686B1EA51072004D4196 /* Build configuration list for PBXNativeTarget "AsynchImageDownloadAssignment" */;
+			buildPhases = (
+				5886C766D36E7FC7A3631AAC /* [CP] Check Pods Manifest.lock */,
+				18DD68451EA51071004D4196 /* Sources */,
+				18DD68461EA51071004D4196 /* Frameworks */,
+				18DD68471EA51071004D4196 /* Resources */,
+				5A0CAEE5D0005546B123A20E /* [CP] Embed Pods Frameworks */,
+				0CEA88CF373E0E4FB78CAB06 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsynchImageDownloadAssignment;
+			productName = AsynchImageDownloadAssignment;
+			productReference = 18DD68491EA51071004D4196 /* AsynchImageDownloadAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DD68611EA51071004D4196 /* AsynchImageDownloadAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DD686E1EA51072004D4196 /* Build configuration list for PBXNativeTarget "AsynchImageDownloadAssignmentTests" */;
+			buildPhases = (
+				3CFF0A7110E6A1ABEDF5CC66 /* [CP] Check Pods Manifest.lock */,
+				18DD685E1EA51071004D4196 /* Sources */,
+				18DD685F1EA51071004D4196 /* Frameworks */,
+				18DD68601EA51071004D4196 /* Resources */,
+				0270A43993A6F402024BAB4D /* [CP] Embed Pods Frameworks */,
+				19F17480102502A8790B9C85 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DD68641EA51071004D4196 /* PBXTargetDependency */,
+			);
+			name = AsynchImageDownloadAssignmentTests;
+			productName = AsynchImageDownloadAssignmentTests;
+			productReference = 18DD68621EA51071004D4196 /* AsynchImageDownloadAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DD68411EA51071004D4196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = terabyteLogixs;
+				TargetAttributes = {
+					18DD68481EA51071004D4196 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					18DD68611EA51071004D4196 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18DD68481EA51071004D4196;
+					};
+				};
+			};
+			buildConfigurationList = 18DD68441EA51071004D4196 /* Build configuration list for PBXProject "AsynchImageDownloadAssignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DD68401EA51071004D4196;
+			productRefGroup = 18DD684A1EA51071004D4196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DD68481EA51071004D4196 /* AsynchImageDownloadAssignment */,
+				18DD68611EA51071004D4196 /* AsynchImageDownloadAssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DD68471EA51071004D4196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DD685C1EA51071004D4196 /* LaunchScreen.storyboard in Resources */,
+				18C5464B1EA53A6C00914CC4 /* ImageInfoCell.xib in Resources */,
+				18DD68591EA51071004D4196 /* Assets.xcassets in Resources */,
+				18DD68571EA51071004D4196 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DD68601EA51071004D4196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0270A43993A6F402024BAB4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsynchImageDownloadAssignmentTests/Pods-AsynchImageDownloadAssignmentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CEA88CF373E0E4FB78CAB06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsynchImageDownloadAssignment/Pods-AsynchImageDownloadAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19F17480102502A8790B9C85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsynchImageDownloadAssignmentTests/Pods-AsynchImageDownloadAssignmentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CFF0A7110E6A1ABEDF5CC66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5886C766D36E7FC7A3631AAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A0CAEE5D0005546B123A20E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsynchImageDownloadAssignment/Pods-AsynchImageDownloadAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DD68451EA51071004D4196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C546451EA5285F00914CC4 /* User.m in Sources */,
+				18C546291EA51FD100914CC4 /* Utililities.m in Sources */,
+				18C546221EA51A6F00914CC4 /* NetworkLayer.m in Sources */,
+				18C546311EA5275900914CC4 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				18C546441EA5285F00914CC4 /* Urls.m in Sources */,
+				18C546321EA5275900914CC4 /* UIScrollView+SVPullToRefresh.m in Sources */,
+				18C546411EA5285F00914CC4 /* Categories.m in Sources */,
+				18C5464A1EA53A6C00914CC4 /* ImageInfoCell.m in Sources */,
+				18C5461F1EA5190A00914CC4 /* HomeVC.m in Sources */,
+				18DD68771EA5160D004D4196 /* AppDelegate.m in Sources */,
+				18C5464E1EA545F100914CC4 /* GetStartedVC.m in Sources */,
+				18DD684E1EA51071004D4196 /* main.m in Sources */,
+				18C546431EA5285F00914CC4 /* ProfileImage.m in Sources */,
+				18C546401EA5285F00914CC4 /* BaseClass.m in Sources */,
+				18C546421EA5285F00914CC4 /* Links.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DD685E1EA51071004D4196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DD68671EA51071004D4196 /* AsynchImageDownloadAssignmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18DD68641EA51071004D4196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DD68481EA51071004D4196 /* AsynchImageDownloadAssignment */;
+			targetProxy = 18DD68631EA51071004D4196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18DD68551EA51071004D4196 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DD68561EA51071004D4196 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DD685A1EA51071004D4196 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DD685B1EA51071004D4196 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DD68691EA51071004D4196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18DD686A1EA51071004D4196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DD686C1EA51072004D4196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337C7EA353204345C60A024B /* Pods-AsynchImageDownloadAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = AsynchImageDownloadAssignment/AsynchImageDownloadAssignment.pch;
+				INFOPLIST_FILE = AsynchImageDownloadAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AsynchImageDownloadAssignment/ThirdPartiesOpenSourceLibs/usr/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.terabyteLogixs.AsynchImageDownloadAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18DD686D1EA51072004D4196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B38DA8DB1BDCBED8722A82 /* Pods-AsynchImageDownloadAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = AsynchImageDownloadAssignment/AsynchImageDownloadAssignment.pch;
+				INFOPLIST_FILE = AsynchImageDownloadAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AsynchImageDownloadAssignment/ThirdPartiesOpenSourceLibs/usr/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.terabyteLogixs.AsynchImageDownloadAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18DD686F1EA51072004D4196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9B4559A7A5C1716FAFBB0F /* Pods-AsynchImageDownloadAssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"$(PROJECT_DIR)/usr/include",
+				);
+				INFOPLIST_FILE = AsynchImageDownloadAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AsynchImageDownloadAssignment/ThirdPartiesOpenSourceLibs/usr/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.terabyteLogixs.AsynchImageDownloadAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsynchImageDownloadAssignment.app/AsynchImageDownloadAssignment";
+			};
+			name = Debug;
+		};
+		18DD68701EA51072004D4196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9E1F0F8CF6210FD7C7A533 /* Pods-AsynchImageDownloadAssignmentTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"$(PROJECT_DIR)/usr/include",
+				);
+				INFOPLIST_FILE = AsynchImageDownloadAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AsynchImageDownloadAssignment/ThirdPartiesOpenSourceLibs/usr/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.terabyteLogixs.AsynchImageDownloadAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsynchImageDownloadAssignment.app/AsynchImageDownloadAssignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DD68441EA51071004D4196 /* Build configuration list for PBXProject "AsynchImageDownloadAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DD68691EA51071004D4196 /* Debug */,
+				18DD686A1EA51071004D4196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DD686B1EA51072004D4196 /* Build configuration list for PBXNativeTarget "AsynchImageDownloadAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DD686C1EA51072004D4196 /* Debug */,
+				18DD686D1EA51072004D4196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DD686E1EA51072004D4196 /* Build configuration list for PBXNativeTarget "AsynchImageDownloadAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DD686F1EA51072004D4196 /* Debug */,
+				18DD68701EA51072004D4196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18DD68411EA51071004D4196 /* Project object */;
+}
